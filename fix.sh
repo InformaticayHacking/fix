@@ -13,5 +13,8 @@ clear
 bash fix-ruby-bigdecimal.sh.txt
 clear
 echo "Abriendo msfconsole"
+cd ~/metasploit-framework
 sleep 2
+./msfconsole
+
 exit
